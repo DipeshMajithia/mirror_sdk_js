@@ -1,6 +1,6 @@
 {
   "name": "mirrorsdk",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Node.js SDK for Mirror Chat API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -22,9 +22,11 @@
   "author": "Dipesh Majithia",
   "license": "ISC",
   "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
   "devDependencies": {
-    "@types/node": "^24.10.1",
-    "axios": "^1.13.2",
-    "typescript": "^5.9.3"
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
   }
 }
